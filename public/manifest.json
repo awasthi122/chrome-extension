@@ -1,14 +1,18 @@
 {
-    "name":"Insights AI",
-    "description": "Your go-to companion for unlocking knowledge and gaining valuable insights instantly.",
-    "version": "1.0",
-    "manifest_version": 3,
-    "action":{
-        "default_titile": "My App",
-        "default_popup": "index.html",
-        "default_icon":{
-            "16": "logo192.png",
-            "128": "logo192.png"
-        }
+  "name": "Perception AI",
+  "description": "Ask queries and get instant AI answers using GPT-4 API.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Perception AI",
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "logo192.png",
+      "128": "logo192.png"
     }
+  },
+  "permissions": ["activeTab"],
+  "host_permissions": [
+    "https://cheapest-gpt-4-turbo-gpt-4-vision-chatgpt-openai-ai-api.p.rapidapi.com/*"
+  ]
 }
