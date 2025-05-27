@@ -1,15 +1,20 @@
 {
-  "name": "Perception AI",
-  "description": "Ask queries and get instant AI answers using GPT-4 API.",
-  "version": "1.0",
   "manifest_version": 3,
+  "name": "Perception AI",
+  "version": "1.0",
+  "description": "Ask queries and get instant AI answers using GPT-4 API.",
   "action": {
-    "default_title": "Perception AI",
     "default_popup": "index.html",
     "default_icon": {
       "16": "logo192.png",
+      "48": "logo192.png",
       "128": "logo192.png"
     }
+  },
+  "icons": {
+    "16": "logo192.png",
+    "48": "logo192.png",
+    "128": "logo192.png"
   },
   "permissions": ["activeTab"],
   "host_permissions": [

@@ -13,10 +13,10 @@ function App() {
     e.preventDefault();
 
     const API_URL = 'https://cheapest-gpt-4-turbo-gpt-4-vision-chatgpt-openai-ai-api.p.rapidapi.com/v1/chat/completions';
-    const RAPIDAPI_KEY = 'cadd832d6amsh8738bb17654f2e2p1e976cjsn367653dcb34f'; // Replace with your actual key
+    const RAPIDAPI_KEY = 'your-api-key'; 
 
     try {
-      const response = await fetch(API_URL, {
+      const response = await fetch(API_URL, { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
